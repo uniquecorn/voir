@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="voir.js"></script>
+    <script type="text/javascript" src="source.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+    <title>voir</title>
+  </head>
+  <body>
+    <script>
+        'use strict'
+
+        const webFrame = require('electron').webFrame
+        const {dialog,app} = require('electron').remote;
+        const fs = require('fs');
+
+        const voir = new Voir()
+        window.addEventListener('load', () => { voir.start(); })
+    </script>
+    <div id="image_container"></div>
+  </body>
+</html>

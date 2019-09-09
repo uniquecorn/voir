@@ -1,0 +1,22 @@
+{
+  "name": "voir",
+  "version": "1.0.0",
+  "description": "the better you look the more you see.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uniquecorn/voir.git"
+  },
+  "author": "uniquecorn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uniquecorn/voir/issues"
+  },
+  "homepage": "https://github.com/uniquecorn/voir#readme",
+  "dependencies": {
+    "electron": "^6.0.7"
+  }
+}
